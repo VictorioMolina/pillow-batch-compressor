@@ -17,9 +17,6 @@ def compress_image(image_path, compressed_image_path, quality, scale_factor):
     print(f'> Compressing {image_path}...');
     picture = Image.open(image_path);
     
-    # RGB
-    rgb_picture = picture.convert('RGB');
-    
     # Save a resized version as .jpg, temporally, as .png is a lossless format
     tmp_path = '/tmp/tmp_compressed_image.jpg';
     width, height = rgb_picture.size;
