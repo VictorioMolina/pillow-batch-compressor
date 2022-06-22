@@ -1,6 +1,6 @@
 # What is python-images-compressor?
 
-> It is an image compressor w/ Pillow which recursivelly compresses all the images in a given folder.
+It is an image compressor w/ Pillow which recursivelly compresses all the images in a given folder.
 
 ## How can I execute the compressor?
 
