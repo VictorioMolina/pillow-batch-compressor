@@ -10,16 +10,6 @@ Recursively compresses `.jpg`, `.jpeg`, and `.png` images in a folder, with cust
 - Option to overwrite originals or save as new files
 - Minimal dependencies (`Pillow`)
 
-## Installation
-
-Clone the repository and install requirements:
-
-```bash
-git clone https://github.com/<your-username>/pillow-batch-compressor.git
-cd pillow-batch-compressor
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ```bash
