@@ -1,18 +1,27 @@
-# What is python-images-compressor?
+# Pillow batch compressor
 
-It is an image compressor w/ Pillow which recursivelly compresses all the images in a given folder.
+A lightweight Python tool for batch image compression and resizing using [Pillow](https://python-pillow.org).  
+Recursively compresses `.jpg`, `.jpeg`, and `.png` images in a folder, with customizable quality, scale factor, and optional overwrite.
 
-## How can I execute the compressor?
+## Features
+- Batch process all images in a directory
+- Supports `.jpg`, `.jpeg`, `.png`
+- Customizable quality and scale factor
+- Option to overwrite originals or save as new files
+- Minimal dependencies (`Pillow`)
 
-Open your terminal and write:
+## Installation
 
-```shell
-python3 compressor.py images_dir quality scale_factor should_replace
+Clone the repository and install requirements:
 
-  1. type(images_dir) = string
-  2. type(quality) = number
-  3. type(scale_factor) = number
-  4. type(should_replace) = bool
+```bash
+git clone https://github.com/<your-username>/pillow-batch-compressor.git
+cd pillow-batch-compressor
+pip install -r requirements.txt
 ```
 
-- Note: the compressor will only work for _.jpg_, _.jpeg_ and _.png_ files.
+## Usage
+
+```bash
+python3 compressor.py <images_dir> <quality> <scale_factor> <should_replace>
+```
